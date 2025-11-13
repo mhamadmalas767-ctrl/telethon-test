@@ -2,7 +2,7 @@ from telethon import TelegramClient, events, Button
 from telethon.errors import ChatAdminRequiredError
 from telethon.tl.functions.channels import GetParticipantRequest
 from telethon.events import StopPropagation
-import cryptg, orjson, os, asyncio
+import asyncio, os
 from collections import defaultdict
 import re
 
@@ -59,4 +59,5 @@ if __name__ == "__main__":
         asyncio.get_event_loop().run_forever()
     except KeyboardInterrupt:
         task.cancel()
+
         asyncio.get_event_loop().run_until_complete(task)
