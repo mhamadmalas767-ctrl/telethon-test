@@ -8,7 +8,6 @@ orjson
 httpx
 requests
 psutil
-speech_recognition
 fake_useragent
 pydub
 BeautifulSoup
@@ -16,4 +15,5 @@ tempfile
 arabic_reshaper
 python-bidi
 nest_asyncio
+
 aiosqlite
