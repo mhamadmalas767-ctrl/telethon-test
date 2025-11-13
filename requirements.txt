@@ -2,7 +2,6 @@ py-tgcalls==2.2.8
 watchdog
 aiofiles
 aiohttp
-ffmpeg
 telethon
 orjson
 httpx
@@ -17,3 +16,4 @@ python-bidi
 nest_asyncio
 
 aiosqlite
+
